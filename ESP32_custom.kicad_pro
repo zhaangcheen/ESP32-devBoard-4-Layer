@@ -639,7 +639,7 @@
         "uuid": "d69a2644-c978-49ae-b7c7-18eba523ada2"
       }
     ],
-    "used_designators": "U2,#FLG1-2,R1,#PWR16-20,J2-3",
+    "used_designators": "R5-10",
     "variants": []
   },
   "sheets": [
