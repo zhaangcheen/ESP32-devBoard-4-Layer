@@ -495,6 +495,13 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -625,11 +632,22 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "ESP32_custom.kicad_sch",
+        "name": "ESP32_custom",
+        "uuid": "d69a2644-c978-49ae-b7c7-18eba523ada2"
+      }
+    ],
+    "used_designators": "#PWR1-15,C1-6,SW1-2,J1-3,R1-4,TH1-6,Q1-2,U1-5",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "d69a2644-c978-49ae-b7c7-18eba523ada2",
+      "ESP32_custom"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
