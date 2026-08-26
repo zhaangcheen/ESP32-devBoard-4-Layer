@@ -559,7 +559,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "USB_90_OHM",
+        "pattern": "/D11"
+      },
+      {
+        "netclass": "USB_90_OHM",
+        "pattern": "/D22"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
