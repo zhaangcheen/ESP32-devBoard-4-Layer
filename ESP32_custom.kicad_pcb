@@ -7292,8 +7292,8 @@
 		)
 	)
 	(gr_line
-		(start 111.76 60.96)
-		(end 111.76 110.236)
+		(start 112.268 60.96)
+		(end 112.268 110.236)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7302,19 +7302,19 @@
 		(uuid "432f6191-18bb-4187-95e7-ddb44f40b8a2")
 	)
 	(gr_arc
-		(start 111.76 60.96)
-		(mid 111.90879 60.60079)
-		(end 112.268 60.452)
+		(start 112.268 60.96)
+		(mid 112.41679 60.60079)
+		(end 112.776 60.452)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "cfef1302-ca0f-48bc-9a10-4464a01f8dc7")
+		(uuid "18b70a57-a6e8-451b-bf9e-4643e055c335")
 	)
 	(gr_line
-		(start 112.268 60.452)
-		(end 144.272 60.452)
+		(start 112.776 60.452)
+		(end 143.764 60.452)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7323,19 +7323,19 @@
 		(uuid "058d263c-2772-4349-9d0f-2ccc45346ad7")
 	)
 	(gr_arc
-		(start 112.268 110.744)
-		(mid 111.90879 110.59521)
-		(end 111.76 110.236)
+		(start 112.776 110.744)
+		(mid 112.41679 110.59521)
+		(end 112.268 110.236)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "cf9fa369-3422-4d57-9f63-d44bc3c299e6")
+		(uuid "91332bc3-cb6e-4b01-9b04-df43225e6c71")
 	)
 	(gr_line
-		(start 112.268 110.744)
-		(end 144.272 110.744)
+		(start 112.776 110.744)
+		(end 143.764 110.744)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7344,19 +7344,19 @@
 		(uuid "56a4339b-ce66-495f-813c-62139475b2c0")
 	)
 	(gr_arc
-		(start 144.272 60.452)
-		(mid 144.63121 60.60079)
-		(end 144.78 60.96)
+		(start 143.764 60.452)
+		(mid 144.12321 60.60079)
+		(end 144.272 60.96)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "fe20416e-a387-4fa1-a465-dadc033b3bf0")
+		(uuid "40272a7d-6ec5-4a97-aff4-658872d82b67")
 	)
 	(gr_line
-		(start 144.78 60.96)
-		(end 144.78 110.236)
+		(start 144.272 60.96)
+		(end 144.272 110.236)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7365,15 +7365,15 @@
 		(uuid "93f340b0-8a6b-4d4f-9b58-b980331dd707")
 	)
 	(gr_arc
-		(start 144.78 110.236)
-		(mid 144.63121 110.59521)
-		(end 144.272 110.744)
+		(start 144.272 110.236)
+		(mid 144.12321 110.59521)
+		(end 143.764 110.744)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "bd5095ea-db2a-4e90-8be6-cdcf43ee0bcd")
+		(uuid "224fbb43-9536-4723-87d7-a379c441de6e")
 	)
 	(embedded_fonts no)
 )

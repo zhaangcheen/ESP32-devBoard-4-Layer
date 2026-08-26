@@ -9243,7 +9243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 237.49 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -10255,7 +10255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-100xP"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 236.22 105.41 0)
 			(hide yes)
 			(show_name no)
