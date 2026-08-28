@@ -4025,22 +4025,10 @@
 		(uuid "01d01792-97f5-4ad4-b78d-2bccefebe611")
 	)
 	(junction
-		(at 63.5 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "125fb45e-02b1-4f6d-a7a1-7bc719827f62")
-	)
-	(junction
 		(at 248.92 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38952ca9-5814-420d-87fc-0e97f9183ae3")
-	)
-	(junction
-		(at 41.91 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3cae34da-6bf0-430a-90f0-40e5bf469488")
 	)
 	(junction
 		(at 76.2 106.68)
@@ -4127,6 +4115,12 @@
 		(uuid "b8f75024-8993-4bb2-8b41-e27fbd66a8aa")
 	)
 	(junction
+		(at 40.64 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdc1e0d4-ae25-459e-aba3-bd64456df2b2")
+	)
+	(junction
 		(at 165.1 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4149,6 +4143,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2870e9b-696e-4679-9878-e21c7bd5744c")
+	)
+	(junction
+		(at 63.5 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f28724ef-e2b2-4c23-9661-2595e285222c")
 	)
 	(junction
 		(at 165.1 57.15)
@@ -4183,16 +4183,8 @@
 		(uuid "41086422-01d2-4267-86e5-03b0a76da7e6")
 	)
 	(no_connect
-		(at 71.12 166.37)
-		(uuid "45f88a2b-121a-469d-962b-665c88528718")
-	)
-	(no_connect
 		(at 62.23 63.5)
 		(uuid "521dfd66-fc58-4b16-8ebc-6dfccf04f735")
-	)
-	(no_connect
-		(at 35.56 158.75)
-		(uuid "71b30828-fb87-4224-8ac7-60ea89edb71c")
 	)
 	(no_connect
 		(at 71.12 171.45)
@@ -4234,7 +4226,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 106.68) (xy 41.91 106.68)
+			(xy 38.1 106.68) (xy 40.64 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4684,13 +4676,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 106.68) (xy 63.5 106.68)
+			(xy 40.64 106.68) (xy 44.45 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "511d57c9-5912-473c-85b2-96d84f481ad4")
+		(uuid "50c83079-9d7d-40eb-a406-1bc71c0bbedf")
 	)
 	(wire
 		(pts
@@ -4734,7 +4726,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 106.68) (xy 66.04 106.68)
+			(xy 59.69 106.68) (xy 63.5 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4894,6 +4886,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 158.75) (xy 26.67 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dabec73-36fd-4c07-a372-e6ac5a885b66")
+	)
+	(wire
+		(pts
 			(xy 107.95 46.99) (xy 107.95 34.29)
 		)
 		(stroke
@@ -5001,6 +5003,16 @@
 			(type default)
 		)
 		(uuid "93f43e75-d239-42a8-8866-b5621cc5d3f3")
+	)
+	(wire
+		(pts
+			(xy 26.67 175.26) (xy 26.67 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "949fbca3-8737-418b-b324-01d360c2d361")
 	)
 	(wire
 		(pts
@@ -5114,6 +5126,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 106.68) (xy 66.04 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5eec09-2b80-4bfa-b8f4-d697bac36a53")
+	)
+	(wire
+		(pts
 			(xy 30.48 64.77) (xy 30.48 78.74)
 		)
 		(stroke
@@ -5171,6 +5193,16 @@
 			(type default)
 		)
 		(uuid "b3608791-a774-4602-9ecc-d7b9b846f5bb")
+	)
+	(wire
+		(pts
+			(xy 82.55 175.26) (xy 82.55 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b49a9a53-d184-4a4c-ad92-dcde7cd3114d")
 	)
 	(wire
 		(pts
@@ -5234,16 +5266,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 106.68) (xy 44.45 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0565527-312c-4704-8631-2bbb49afb901")
-	)
-	(wire
-		(pts
 			(xy 73.66 151.13) (xy 73.66 152.4)
 		)
 		(stroke
@@ -5251,6 +5273,26 @@
 			(type default)
 		)
 		(uuid "c312c0a3-687f-4c64-8fcb-31a32a60fbe2")
+	)
+	(wire
+		(pts
+			(xy 71.12 166.37) (xy 82.55 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3665a3d-72a4-494e-9f8b-a0a91691d652")
+	)
+	(wire
+		(pts
+			(xy 26.67 158.75) (xy 26.67 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d11c88-05ac-4c82-99e5-752d42d2a36f")
 	)
 	(wire
 		(pts
@@ -5441,6 +5483,16 @@
 			(type default)
 		)
 		(uuid "ed6ff2a3-330a-490a-acf2-6d635edb104d")
+	)
+	(wire
+		(pts
+			(xy 82.55 166.37) (xy 82.55 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3da78e-b5b2-4ff9-90eb-e85908e99e7c")
 	)
 	(wire
 		(pts
@@ -6142,7 +6194,7 @@
 		)
 		(uuid "e0dd8a87-ad11-4548-bef3-701101460c9f")
 	)
-	(label "DRT"
+	(label "DTR"
 		(at 115.57 140.97 180)
 		(effects
 			(font
@@ -6607,7 +6659,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10uF"
 			(at 69.85 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7059,83 +7111,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 104.14 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e9064f4-0143-465c-9d7f-3d895b9385bf")
-		(property "Reference" "#PWR015"
-			(at 104.14 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 104.14 41.656 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 104.14 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "429d1001-5dc6-4561-aa5a-8b0fbef0ced0")
-		)
-		(instances
-			(project "ESP32_custom"
-				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 128.27 140.97 90)
 		(unit 1)
@@ -7210,6 +7185,84 @@
 			(project "ESP32_custom"
 				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ed6bf8a-336f-49cf-8377-b80c17a86e68")
+		(property "Reference" "#PWR021"
+			(at 82.55 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42e5b846-289a-4173-b5ef-c6e3cc9047d0")
+		)
+		(instances
+			(project "ESP32_custom"
+				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7306,7 +7359,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "38b39a15-efba-401d-89d8-b65ba4e75fd9")
 		(property "Reference" "#PWR019"
 			(at 207.01 76.2 0)
@@ -7320,7 +7372,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 74.93 0)
+			(at 208.28 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7375,6 +7427,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 255.27 62.23 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a47d88b-19bb-4d7b-b3c2-9425b98bf0a9")
+		(property "Reference" "#PWR02"
+			(at 255.27 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 255.27 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 255.27 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "782661ea-d82d-4cef-b422-291e885fcdef")
+		)
+		(instances
+			(project "ESP32_custom"
+				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 34.29 106.68 90)
 		(unit 1)
@@ -7396,7 +7526,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10uF"
 			(at 34.29 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7803,6 +7933,7 @@
 	(symbol
 		(lib_id "Transistor_BJT:SS8050")
 		(at 140.97 158.75 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7810,10 +7941,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f0ca1d0-6e20-4c72-9a15-e789645daa82")
 		(property "Reference" "Q2"
-			(at 146.05 157.4799 0)
+			(at 146.05 160.0201 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7824,7 +7954,7 @@
 			)
 		)
 		(property "Value" "SS8050"
-			(at 146.05 160.0199 0)
+			(at 146.05 157.4801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7835,7 +7965,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 146.05 166.116 0)
+			(at 146.05 151.384 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7848,7 +7978,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.secosgmbh.com/datasheet/products/SSMPTransistor/SOT-23/SS8050.pdf"
-			(at 146.05 163.576 0)
+			(at 146.05 153.924 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7860,7 +7990,7 @@
 			)
 		)
 		(property "Description" "General Purpose NPN Transistor, 1.5A Ic, 25V Vce, SOT-23"
-			(at 175.006 161.036 0)
+			(at 175.006 156.464 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7905,6 +8035,88 @@
 			(project "ESP32_custom"
 				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 26.67 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5091bf37-6bfb-4ca0-8e98-0aa3b93b773e")
+		(property "Reference" "R12"
+			(at 29.21 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 29.21 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.892 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 26.67 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1dacbe54-2455-411a-824c-d01d1d2da2ff")
+		)
+		(pin "1"
+			(uuid "0e10f7e2-4fea-46a8-9b6a-468c1d6d7953")
+		)
+		(instances
+			(project "ESP32_custom"
+				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7983,161 +8195,6 @@
 			(project "ESP32_custom"
 				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 181.61 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52af5136-300a-4e7b-bd9d-20d6954c6ea1")
-		(property "Reference" "#PWR012"
-			(at 181.61 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 181.61 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 181.61 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d51c52d7-5288-4a82-8b73-8a2be5fa70cd")
-		)
-		(instances
-			(project "ESP32_custom"
-				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 73.66 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "543e0fa2-ab82-4846-9fa0-64924a91192b")
-		(property "Reference" "#PWR011"
-			(at 73.66 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 73.66 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 73.66 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fe0beac7-3bb4-479d-a840-3afd97914492")
-		)
-		(instances
-			(project "ESP32_custom"
-				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -8223,6 +8280,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 73.66 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fee4601-4ae6-4f2f-b716-52fa3c04d945")
+		(property "Reference" "#PWR011"
+			(at 73.66 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 73.66 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 73.66 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d08f4a3a-846a-47b1-bbd7-0069ecfc5751")
+		)
+		(instances
+			(project "ESP32_custom"
+				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 181.61 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60a82a74-f4df-4b99-a0fb-0f92955b983f")
+		(property "Reference" "#PWR023"
+			(at 181.61 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 181.61 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 181.61 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5303e066-5a5b-48e4-bd8c-b07fa07a52b2")
+		)
+		(instances
+			(project "ESP32_custom"
+				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 172.72 102.87 90)
 		(unit 1)
@@ -8297,6 +8510,88 @@
 			(project "ESP32_custom"
 				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6aa2de7e-d6df-40a7-bfd9-0366daf32a32")
+		(property "Reference" "R11"
+			(at 85.09 170.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 85.09 172.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.772 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "149911a8-302e-4f97-baaa-316101259651")
+		)
+		(pin "1"
+			(uuid "e4c434b3-1a82-4340-81fa-2a988376042d")
+		)
+		(instances
+			(project "ESP32_custom"
+				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8697,7 +8992,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 63.5 106.68 0)
+		(at 40.64 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8708,7 +9003,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a1e2e5f-1bc8-4867-a808-033d7127feba")
 		(property "Reference" "#PWR05"
-			(at 63.5 110.49 0)
+			(at 40.64 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8719,7 +9014,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 63.5 101.6 0)
+			(at 40.64 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8729,7 +9024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 106.68 0)
+			(at 40.64 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8740,7 +9035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 106.68 0)
+			(at 40.64 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8751,7 +9046,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 106.68 0)
+			(at 40.64 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9293,7 +9588,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 41.91 106.68 0)
+		(at 63.5 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9304,7 +9599,7 @@
 		(fields_autoplaced yes)
 		(uuid "95b38b2d-7874-4b9b-8ac3-7983a9c2af04")
 		(property "Reference" "#PWR03"
-			(at 41.91 110.49 0)
+			(at 63.5 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9315,7 +9610,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 41.91 101.6 0)
+			(at 63.5 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9325,7 +9620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 106.68 0)
+			(at 63.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9336,7 +9631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 106.68 0)
+			(at 63.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9347,7 +9642,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 41.91 106.68 0)
+			(at 63.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9555,8 +9850,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 242.824 112.776 90)
+		(property "Value" "10uF"
+			(at 242.062 112.776 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9841,6 +10136,84 @@
 			(project "ESP32_custom"
 				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 104.14 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c40c6778-9f14-435a-8a69-0c9f8b09034e")
+		(property "Reference" "#PWR015"
+			(at 104.14 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 104.14 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 104.14 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1806905d-9a27-4b58-b174-31df7676541a")
+		)
+		(instances
+			(project "ESP32_custom"
+				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10224,6 +10597,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 26.67 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d33fd26b-856f-4d24-9da4-c2ca62bae44d")
+		(property "Reference" "#PWR022"
+			(at 26.67 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b3b43068-4941-4237-9df0-edf2d4e649c7")
+		)
+		(instances
+			(project "ESP32_custom"
+				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 236.22 110.49 0)
 		(unit 1)
@@ -10298,84 +10749,6 @@
 			(project "ESP32_custom"
 				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 255.27 62.23 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e8db899d-d25d-455a-a4e1-854efd4468ce")
-		(property "Reference" "#PWR02"
-			(at 255.27 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 256.794 67.056 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 255.27 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "156070ca-3297-4016-929c-03f93e0af65e")
-		)
-		(instances
-			(project "ESP32_custom"
-				(path "/d69a2644-c978-49ae-b7c7-18eba523ada2"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)

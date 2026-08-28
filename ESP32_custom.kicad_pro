@@ -710,7 +710,7 @@
         "uuid": "d69a2644-c978-49ae-b7c7-18eba523ada2"
       }
     ],
-    "used_designators": "R5-10",
+    "used_designators": "#PWR2,#PWR11,#PWR15,#PWR21-23,R5-12",
     "variants": []
   },
   "sheets": [
