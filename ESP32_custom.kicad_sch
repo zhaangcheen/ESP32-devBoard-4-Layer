@@ -5844,7 +5844,7 @@
 		)
 		(uuid "6fd0a626-7a85-4f75-8519-fcaa2ad5e1a7")
 	)
-	(label "TX"
+	(label "RX"
 		(at 76.2 48.26 0)
 		(effects
 			(font
@@ -5904,7 +5904,7 @@
 		)
 		(uuid "8b31715b-1f20-4c15-a77d-a59e713c0bbd")
 	)
-	(label "RX"
+	(label "TX"
 		(at 76.2 55.88 0)
 		(effects
 			(font
@@ -5953,6 +5953,16 @@
 			(justify left bottom)
 		)
 		(uuid "93609260-58a0-4bea-bb42-55f9c94e7076")
+	)
+	(label "CC1"
+		(at 33.02 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "941a3ba1-41e1-4c78-8bbf-2f7c62da1e58")
 	)
 	(label "IO14"
 		(at 198.12 67.31 0)
@@ -6163,6 +6173,16 @@
 			(justify left bottom)
 		)
 		(uuid "d44008dc-ecf7-4236-81f1-8a8225dd020a")
+	)
+	(label "CC2"
+		(at 73.66 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8e0ac9e-f583-422b-aa6c-ccf04e08ce67")
 	)
 	(label "IO17"
 		(at 161.29 95.25 0)
