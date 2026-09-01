@@ -4054,8 +4054,16 @@
 		(uuid "41086422-01d2-4267-86e5-03b0a76da7e6")
 	)
 	(no_connect
+		(at 110.49 62.23)
+		(uuid "4d08ac72-0405-4b05-850f-b8d3016a06db")
+	)
+	(no_connect
 		(at 62.23 63.5)
 		(uuid "521dfd66-fc58-4b16-8ebc-6dfccf04f735")
+	)
+	(no_connect
+		(at 110.49 59.69)
+		(uuid "86e6810d-4e63-4f36-ab8c-6fb14b4cf2c7")
 	)
 	(no_connect
 		(at 71.12 171.45)
@@ -5525,16 +5533,6 @@
 		)
 		(uuid "43444417-6eb6-4cc0-8d5d-642eaa10de6d")
 	)
-	(label "IO35"
-		(at 110.49 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "45f3f834-5703-4993-ae92-a6e724987425")
-	)
 	(label "IO19"
 		(at 215.9 50.8 0)
 		(effects
@@ -5604,16 +5602,6 @@
 			(justify left bottom)
 		)
 		(uuid "5424a8eb-8258-4191-b7a5-be82e5464502")
-	)
-	(label "IO34"
-		(at 110.49 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "55719eb0-0a19-4416-88c0-bae5185e5130")
 	)
 	(label "IO26"
 		(at 190.5 53.34 0)
@@ -5894,16 +5882,6 @@
 			(justify left bottom)
 		)
 		(uuid "a89e72eb-e727-4eea-a93b-423578c00a99")
-	)
-	(label "IO12"
-		(at 110.49 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "adb225a7-dcda-4643-b53c-78df20efe144")
 	)
 	(label "IO25"
 		(at 110.49 69.85 180)
@@ -6874,7 +6852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical"
 			(at 210.82 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9540,7 +9518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x13_P2.54mm_Vertical"
 			(at 185.42 50.8 0)
 			(hide yes)
 			(show_name no)
