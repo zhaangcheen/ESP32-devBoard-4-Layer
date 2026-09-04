@@ -5498,7 +5498,7 @@
 		)
 		(uuid "0a47fe71-001e-4935-a143-0df9bfa3e25c")
 	)
-	(label "IO16"
+	(label "GPIO16"
 		(at 152.4 156.21 0)
 		(effects
 			(font
@@ -5548,7 +5548,7 @@
 		)
 		(uuid "1303ab66-8dd6-4030-a007-1a04e7900ff5")
 	)
-	(label "IO13"
+	(label "GPIO13"
 		(at 127 156.21 0)
 		(effects
 			(font
@@ -5558,7 +5558,7 @@
 		)
 		(uuid "25dca62f-f70c-4543-ab7d-56ee6ad92ebb")
 	)
-	(label "IO4"
+	(label "GPIO4"
 		(at 152.4 158.75 0)
 		(effects
 			(font
@@ -5578,7 +5578,7 @@
 		)
 		(uuid "327f2097-ef07-4a6d-9143-2b6edcb2c034")
 	)
-	(label "IO27"
+	(label "GPIO27"
 		(at 127 151.13 0)
 		(effects
 			(font
@@ -5588,7 +5588,7 @@
 		)
 		(uuid "389fb285-908e-44c9-bb09-455d6882d327")
 	)
-	(label "IO25"
+	(label "GPIO25"
 		(at 127 146.05 0)
 		(effects
 			(font
@@ -5618,7 +5618,7 @@
 		)
 		(uuid "46d76e00-2928-49d2-baaa-254e72d63a94")
 	)
-	(label "IO19"
+	(label "GPIO19"
 		(at 152.4 146.05 0)
 		(effects
 			(font
@@ -5638,7 +5638,7 @@
 		)
 		(uuid "4ba6ae29-effb-4fe2-aa3b-22905edc9614")
 	)
-	(label "IO17"
+	(label "GPIO17"
 		(at 152.4 153.67 0)
 		(effects
 			(font
@@ -5658,7 +5658,7 @@
 		)
 		(uuid "50321aeb-4311-478a-becc-9591e1b6d772")
 	)
-	(label "IO22"
+	(label "GPIO22"
 		(at 152.4 135.89 0)
 		(effects
 			(font
@@ -5688,7 +5688,7 @@
 		)
 		(uuid "55c398f8-bb80-4d02-917d-cce28814e087")
 	)
-	(label "IO26"
+	(label "GPIO26"
 		(at 127 148.59 0)
 		(effects
 			(font
@@ -5768,7 +5768,7 @@
 		)
 		(uuid "6429a545-077e-4138-ad47-460ea9380ef1")
 	)
-	(label "IO23"
+	(label "GPIO23"
 		(at 152.4 133.35 0)
 		(effects
 			(font
@@ -5858,7 +5858,7 @@
 		)
 		(uuid "7617ad84-6669-4fe1-bc0c-548ec133d15c")
 	)
-	(label "IO33"
+	(label "GPIO33"
 		(at 127 143.51 0)
 		(effects
 			(font
@@ -5938,7 +5938,7 @@
 		)
 		(uuid "97dc9340-ae84-4b3f-9327-da0faebc638d")
 	)
-	(label "IO21"
+	(label "GPIO21"
 		(at 152.4 143.51 0)
 		(effects
 			(font
@@ -5968,7 +5968,7 @@
 		)
 		(uuid "9b7e7d6e-1973-4e4b-80a0-d84bd18171d5")
 	)
-	(label "IO18"
+	(label "GPIO18"
 		(at 152.4 148.59 0)
 		(effects
 			(font
@@ -5978,7 +5978,7 @@
 		)
 		(uuid "9ffd6a82-4fd9-4b30-9b47-46d21602316d")
 	)
-	(label "IO5"
+	(label "GPIO5"
 		(at 152.4 151.13 0)
 		(effects
 			(font
@@ -5988,7 +5988,7 @@
 		)
 		(uuid "a546ad87-c8e8-4508-8c10-c681869a358b")
 	)
-	(label "IO32"
+	(label "GPIO32"
 		(at 127 140.97 0)
 		(effects
 			(font
@@ -6028,7 +6028,7 @@
 		)
 		(uuid "c164f290-bc41-4a1b-b0be-40d3166c9167")
 	)
-	(label "IO14"
+	(label "GPIO14"
 		(at 127 153.67 0)
 		(effects
 			(font
@@ -6128,7 +6128,7 @@
 		)
 		(uuid "eb687e5a-4d33-4c1b-a74e-de50a16fd867")
 	)
-	(label "IO15"
+	(label "GPIO15"
 		(at 152.4 161.29 0)
 		(effects
 			(font
